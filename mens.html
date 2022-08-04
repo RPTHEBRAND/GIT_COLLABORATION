@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mens.html</title>
+</head>
+<style>
+  #par{
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    /* place-items: center; */
+    justify-content: center;
+
+  }
+  .box{
+ 
+    height: 500px;
+
+  }
+  .center {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{
+  font-size: 40px;
+  margin: 10% 0 0 10%;
+}
+.price{
+  display: flex;
+  margin-top: 2%;
+
+}
+.details{
+  color: rgb(161, 161, 161);
+  font-size: 30px;
+  font-weight: 200;
+  margin: 2% 0 0 10%;
+}
+
+.price span{
+  font-size: 40px;
+  margin: 0 0 0 10%;
+  font-weight: 600;
+}
+.price del{
+  font-size: 35px;
+  margin: 0 0 0 4%;
+  color: rgb(101, 100, 100);
+  /* font-weight: 100; */
+}
+.per{
+  color: green;
+  font-size: 40px;
+  margin: 1% 0 0 4%;
+  
+}
+</style>
+<body>
+  <div id="par">
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcfFJE5eyZHdV-u6OPWTIb7Kok2ySfijaSUQ&usqp=CAU"  class="center" alt="">
+        <h2>Shirts</h2>
+        <p class="details">Mens cotton shirts Long Sleeves</p>
+        <div class="price"><span >₹359</span>
+          <del>₹1,499</del>
+          <p class="per">-76%</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <img src="https://4.imimg.com/data4/AA/HC/MY-26596027/men-s-fancy-t-shirt-500x500.jpg"  class="center" alt="">
+        <h2>T-Shirts</h2>
+        <p class="details">Mens cotton t-shirts</p>
+        <div class="price"><span >₹799</span>
+          <del>₹1,499</del>
+          <p class="per">-47%</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <img src="https://5.imimg.com/data5/FW/BO/MY-1018279/casual-mens-jacket-500x500.jpg"  class="center" alt="" style="height: 50%;">
+        <h2 >Military Jacket</h2>
+        <p class="details">
+
+      Men's Jacket-Casual Winter Cotton Military Jacket
+        </p>
+        <div class="price"><span >₹359</span>
+          <del>₹1,499</del>
+          <p class="per">-76%</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <img src="https://5.imimg.com/data5/EV/CJ/MY-39015204/men-designer-sweater-500x500.jpg"  class="center" alt="" style="height: 50%;">
+        <h2>Sweater</h2>
+        <p class="details">
+          Mens Sweater Shawl Collar Loose Fit Long Sleeve Casual Cardigans
+       </p>
+        <div class="price"><span >₹359</span>
+          <del>₹1,499</del>
+          <p class="per">-76%</p>
+        </div>
+        
+      </div>
+  </div>
+</body>
+</html>
